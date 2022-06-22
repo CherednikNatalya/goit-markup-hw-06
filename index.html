@@ -435,11 +435,11 @@
              </ul>
     </li>
 
-    <li>
+    <li class="footer-form">
         <p class="footer-title">Подпишитесь на рассылку</p>
         <form action="">
             <input class="footer-input" type="text" name="" id="" placeholder="E-mail">
-            <button class="form-button" type="submit">Подписаться
+            <button class="footer-button" type="submit">Подписаться
                 <span><svg class="footer-form-icon" width="24" height="24">
                              <use href="./images/icons2.svg#icon-send"></use>
                          </svg></span>
@@ -465,45 +465,73 @@
          </button>
   <form class="modal-form" name="modal-form" autocomplete="on" novalidate>
   <p class="modal-text">Оставьте свои данные, мы вам перезвоним</p>
-    <div class="form-field">
+  
+      <div class="form-field">
     <label for="name" class="form-label">Имя</label>
-    <input class="form-input" type="text" name="name" id="name"/>
-    <span class="checkbox-icon">
+    <div class="position-icon">
+        <input class="form-input" type="text" name="name" id="name"/>
         <svg class="form-icon" width="18" height="18">
                              <use href="./images/icons2.svg#icon-person"></use>
                          </svg>
-    </span>
+    </div>
+    </div>
+
+     <div class="form-field">
+    <label for="tel" class="form-label">Телефон</label>
+    <div class="position-icon">
+        <input class="form-input" type="tel" name="tel" id="tel" />
+        <svg class="form-icon" width="18" height="18">
+                             <use href="./images/icons2.svg#icon-phone"></use>
+                         </svg>
+    </div>
     </div>
 
     <div class="form-field">
-    <label for="name" class="form-label">Имя
-        <input class="form-input" type="text" name="name" id="name"/>
-    <span class="checkbox-icon">
+    <label for="email" class="form-label">Почта</label>
+    <div class="position-icon">
+        <input class="form-input" type="tel" name="tel" id="tel" />
         <svg class="form-icon" width="18" height="18">
-                             <use href="./images/icons2.svg#icon-person"></use>
-                         </svg>
-                         </span>
-        
-    </label>
+                             <use href="./images/icons2.svg#icon-form-email"></use>
+                                                      </svg>
+    </div>
     </div>
 
-  <div class="form-field">
-     <label for="tel" class="form-label">Телефон</label>
-  <input class="form-input" type="tel" name="tel" id="tel" />
-  </div>
-
-   <div class="form-field">
-     <label for="email" class="form-label">Почта</label>
-  <input class="form-input" type="email" name="email" id="email" />
-  </div>
-    
   <div class="form-field">
      <label for="comment"  class="form-label">Комментарий</label>
   <textarea class="form-comment" name="comment" id="comment" rows="8" placeholder="Введите текст"></textarea>
   </div>
 
-  <input type="checkbox" name="" id="policy">
-  <label for="policy">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+  
+    <!-- <input 
+  class="checkbox"
+  type="checkbox" 
+  name="" 
+  id="policy" />
+  <label class="checkbox-label" for="policy">
+  <span class="checkbox-icon"> </span>
+  Соглашаюсь с рассылкой и принимаю 
+ <a href="" class="agree-link"> Условия договора</a>
+</label> -->
+
+
+ <input 
+  class="checkbox"
+  type="checkbox" 
+  name="" 
+  id="policy" />
+  <label class="checkbox-label" for="policy">
+    Соглашаюсь с рассылкой и принимаю 
+ <a href="" class="agree-link"> Условия договора</a>
+</label>
+<span class="checkbox-icon"> </span>
+
+  <!-- <input 
+  class="checkbox"
+  type="checkbox" 
+  name="" 
+  id="policy">
+
+  <label class="checkbox-label" for="policy">Соглашаюсь с рассылкой и принимаю Условия договора</label> -->
 
   <button class="form-button" type="submit">Отправить</button>
       
