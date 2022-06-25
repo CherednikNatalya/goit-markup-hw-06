@@ -920,7 +920,7 @@ border: 1px solid rgba(0, 0, 0, 0.1);
 
 .modal-icon {
   width: 11PX;
-  height: 11px;
+  height: 11PX;
  justify-content: center;
 align-items: center;
 fill: #000000;
@@ -1072,11 +1072,9 @@ color: rgba(117, 117, 117, 0.5);
 
 .form-input:checked + .checkbox-icon {
 /* fill: var(--accent-color); */
-
 background-color: #2196F3;
 background-size: contain;
-background-repeat: no-repeat;
-background-image: url(../images/icons2.svg#icon-policy);
+background-image: url(../images/icon-policy.svg);
 background-origin: border-box;
 border-color: #2196F3;
 }
@@ -1099,11 +1097,12 @@ border-color: #2196F3;
 
 .checkbox:checked + .checkbox-icon {
 background-color: var(--accent-color);
-background-image: url(../images/check.svg);
+background-image: url(../images/icon-policy.svg);
 background-size: contain;
 background-origin: border-box;
 background-color: #2196F3;
 background-repeat: no-repeat;
+border-radius: 2px;
 }
 
 
